@@ -1,0 +1,17 @@
+.header {
+  box-shadow: 0px 4px 37px 0px #0000000D;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+}
+
+.nav_list li:not(:last-child) {
+  margin-right: 3em;
+}

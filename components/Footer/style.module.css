@@ -1,0 +1,30 @@
+.footer {
+  box-shadow: 0px 4px 37px 0px #0000000D;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_PS {
+  background: #262626;
+  text-align: center;
+  padding: 30px 40%;
+
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}

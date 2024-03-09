@@ -1,8 +1,77 @@
 * {
   box-sizing: border-box;
-  font-family: Montserrat Alternates;
 }
 
-body {
+body,
+p {
   margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 81rem;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+/* logo */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoMain {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.logoMain span {
+  color: #bd7048;
+}
+
+.logoSecondary {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* contacts */
+.contacts_wrap {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts span:first-child {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contacts span:last-child {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3B3B3B80;
 }
