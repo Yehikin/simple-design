@@ -7,13 +7,17 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 50px 0;
+  padding: 50px 15px;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @media screen and (max-width:850px) {
+    display: none;
+  }
 }
 
 .footer_PS {
@@ -26,5 +30,14 @@
   font-weight: 500;
   line-height: 18px;
   letter-spacing: 0em;
+  text-align: left;
+}
+
+.nav_list li,
+.nav_list li a {
+  color: #00000080;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
   text-align: left;
 }

@@ -15,3 +15,31 @@
 .nav_list li:not(:last-child) {
   margin-right: 3em;
 }
+
+.link {
+  color: #00000080;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  transition: 0.3s ease-out;
+}
+
+.link:hover,
+.link_isActive {
+  color: #bd7048;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  border-bottom: #bd7048 1px solid;
+}
+
+@media screen and (max-width:850px) {
+
+  .hdrContacts,
+  .nav_list {
+    display: none;
+  }
+
+}
